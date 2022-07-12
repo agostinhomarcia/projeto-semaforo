@@ -1,14 +1,16 @@
 
 .container{
     display: flex;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5vh;
 }
 
-
+.btns{
+    flex-wrap: wrap;
+}
 .btn{
     width: 90px;
     color: #fff;
